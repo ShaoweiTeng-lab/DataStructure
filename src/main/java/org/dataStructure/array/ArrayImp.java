@@ -1,4 +1,4 @@
-package org.example;
+package org.dataStructure.array;
 
 /**
  * 資料結構Array 實作

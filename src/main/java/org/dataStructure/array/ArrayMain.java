@@ -1,8 +1,9 @@
-package org.example;
+package org.dataStructure.array;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
+import org.dataStructure.array.ArrayImp;
+
+
+public class ArrayMain {
 
     public static void main(String[] args) {
         testArray ();
