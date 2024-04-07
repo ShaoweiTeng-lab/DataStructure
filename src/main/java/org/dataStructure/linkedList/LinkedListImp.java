@@ -23,7 +23,9 @@ public class LinkedListImp {
             end = end.next;
         }
     }
-
+    /**
+     * 查詢元素
+     */
     public  Integer search(int val){
         if(start == null) return  null;
 
@@ -38,7 +40,9 @@ public class LinkedListImp {
         }
         return  null;
     }
-
+    /**
+     * 移除元素
+     */
     public void remove(int val){
         /** step01 先查出位置 **/
 
