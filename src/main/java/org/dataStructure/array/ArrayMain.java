@@ -25,5 +25,19 @@ public class ArrayMain {
         /** 新增在特定index , 需將其他元素向右移動,時間複雜度： o(n) **/
         int i_add = 1;
         arrayImp.addByIndex(i_add, 51);
+
+        /** 查詢在特定value ,時間複雜度： o(n) **/
+        int va1001 = arrayImp.searchByValue(10);
+
+        /** 查詢在特定index ,時間複雜度： o(1) **/
+        int va1002= arrayImp.searchByIndex(3);
+
+        /*** remove by value 時間複雜度：  o(n) **/
+        arrayImp.removeByValue(77);
+        /*** remove by index 時間複雜度：  o(n) **/
+        int iRemove = 3;
+        arrayImp.removeByIndex(iRemove);
+
+
     }
 }
