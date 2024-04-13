@@ -43,7 +43,7 @@ public class InsertionSortRecursion {
         }
         else  // 當發現左邊比較大時 中止內部回圈
             return;
-        insertionSortRecursionHelp2(nums ,j_run);
+        insertionSortRecursionHelp2(nums ,j_run -1);
 
     }
 }
